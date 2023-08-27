@@ -1,0 +1,772 @@
+body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.navbar {
+  background-image: url("images/img8.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.container-fluid {
+  margin: 1%;
+}
+.nav-brand {
+  font-size: 40px;
+  font-family: "Lobster", sans-serif;
+  text-decoration: none;
+  color: #CDF0EA;
+  padding-left: 7%;
+  padding-right: 14%
+}
+.nav-brand:hover {
+  color: #fff;
+}
+.navbar-nav>li {
+  font-family: "Montserrat";
+  padding-left: 8px;
+  padding-right: 10px;
+}
+nav .navbar-nav li a {
+  color: #fff;
+}
+nav .navbar-nav li a:hover {
+  color: #CDF0EA;
+}
+.collapse {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+
+/* my introduction */
+.intro-row {
+  background-image: url("images/img8.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10%;
+
+}
+.row-cont {
+  padding-top: 8%;
+  text-align: left;
+}
+.big-heading {
+  color: #CDF0EA;
+  font-family: "Lobster", sans-serif;
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+  padding: 10% 0 1% 35%;
+}
+.intro {
+  color: #fff;
+  font-family: "Merriweather", sans-serif;
+  margin: 3% 0 5% 35%;
+}
+.pro {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+.social-media{
+  text-align: center;
+  margin-bottom: 10%;
+  margin-left: 25%;
+}
+.footer-link {
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 2%;
+}
+.footer-link:hover{
+  color: #CDF0EA;
+}
+
+.reach-me {
+  text-align: left;
+  margin: 3% 0 10% 35%;
+}
+
+.btn {
+  margin: 0 2% 0;
+}
+
+.home-image {
+  border-style: solid;
+  border-color: #CDF0EA;
+  background-color: #fff;
+  border-radius: 5%;
+  border-width: 5px;
+  outline: 3px solid #fff;
+  outline-offset: 8px;
+  margin: 20% 20% 30% 10%;
+  height: 400px;
+  width: 300px;
+}
+.home-image:hover{
+  transform: scale(1.1);
+}
+.lay{
+  height: 400px;
+  width: 300px;
+  background-color: #CDF0EA;
+  margin-left: 20px;
+  margin-top: -650px;
+  margin-bottom: 30%;
+  padding:  2rem 2rem 5rem 2rem;
+  border-radius: 30px;
+  box-shadow: 0 0 20px #000;
+  z-index: 1;
+}
+
+/* About */
+#about {
+  background-color: #fff;
+}
+
+.section-title {
+  padding-top: 12%;
+  padding-bottom: 3%;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #5089C6;
+}
+
+.about-content {
+  margin: 2% 5% 2%;
+  background-color: #fff;
+  box-shadow: 0 0 20px #5089C6;
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+}
+
+.about-img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.about-info{
+  padding:5% 5% 2%;
+}
+.aboutme{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.download-button-cv{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+/* Skill */
+.my-skills{
+  margin: 2% 0 0;
+}
+.skill-section {
+  padding: 15% 5% 10% 15%;
+  background-color: #5089C6;
+}
+
+.colomn{
+  padding: 0 3% 10%;
+}
+
+.block {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+.box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: calc(100% - 50px);
+  height: calc(100% - 50px);
+  border-radius: 50%;
+  background-color: #001E6C;
+  box-shadow: 0 0 5px 3px #fff;
+}
+
+.box::before {
+  position: absolute;
+  content: '';
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+.box .number span {
+  color: #fff;
+}
+
+.box .number .num {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.box .number .sub {
+  font-size: 20px;
+}
+
+.box .title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+.dots {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  transform: 2s transform, 2s opacity ease;
+}
+
+.dots::after {
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 10px;
+  top: 5px;
+  left: 50%;
+  border-radius: 50%;
+  background-color: #CDF0EA;
+  box-shadow: 0 0 5px 2px #fff;
+  transform: translateX(-50%);
+}
+
+.svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  fill: none;
+  transform: rotate(-90deg);
+}
+
+.circle {
+  stroke: url(#gradientStyle);
+  stroke-width: 4px;
+  stroke-dasharray: 503;
+  stroke-dashoffset: 503;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  transition: 2s stroke-dashoffset;
+}
+
+/* Qoalification */
+.qualification-content{
+  margin: 2% 5% 1%;
+  background-color: #CDF0EA;
+  box-shadow: 0 0 20px #5089C6;
+  padding: 6% 5% 4% 5%;
+}
+.qual-heading{
+  font-size: 1.6rem;
+  text-align: left;
+  font-family: "Merriweather";
+  padding-bottom: 5px;
+}
+
+.edx-div{
+  padding: 5%;
+  font-family: "Montserrat", sans-serif;
+}
+.head{
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+}
+.head-l{
+  font-size: 1.1rem;
+}
+.cert-docs{
+  padding-top: 20px;
+}
+
+
+/* Project Section */
+.all-items{
+  margin-top: 2%;
+  padding: 15% 8% 8%;;
+  background-color: #5089C6;
+}
+.item{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-bottom: 10%;
+}
+
+.item .left {
+  height: 500px;
+  width: 400px;
+  outline: 2px solid #fff;
+  outline-offset: 8px;
+  overflow: hidden;
+  border-radius: 30px;
+  position:relative;
+}
+.item .right{
+  margin-left: -200px;
+  height: 350px;
+  width: 600px;
+  z-index: 1;
+  text-align: left;
+  background-color: #fff;
+  padding:  3rem 1rem 3rem 2rem;
+  border-radius: 30px;
+  box-shadow: 0 0 20px #000;
+}
+.item .left .img{
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+  overflow: hidden;
+}
+.img:hover{
+  transform: scale(1.1);
+  z-index: 1;
+}
+.item .right .project-title{
+  padding-bottom: 1%;
+  font-size: 1.7rem;
+  font-weight: bold;
+  font-family: "Merriweather", sans-serif;
+  margin-bottom: 0.5rem;
+}
+.item .right .project-sub-title{
+  font-family: "Merriweather", sans-serif;
+  line-height: 1.6rem;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+.item .right .project-description{
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  margin-bottom: 1.2rem;
+}
+
+/* Contact */
+.contact-content{
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  box-shadow: 0 0 20px #5089C6;
+}
+.contact-form{
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.form-fill{
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 2%;
+}
+.header-fill{
+  font-family: "Montserrat", sans-serif;
+}
+.mail-header{
+  padding-top: 10%;
+  font-family: "Montserrat", sans-serif;;
+}
+
+label{
+  padding-top: 3%;
+  font-weight:400;
+}
+.btn-sub{
+  margin-top: 20px;
+}
+.con-img{
+  padding-top: 25%;
+  padding-bottom: 20%;
+  padding-right: 3%;
+  padding-left:  5%;
+  height: auto;
+  width: 500px;
+}
+.social-media1{
+  box-shadow: 0 0 20px #5089C6;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin: 7% 15% 7%;
+}
+.lin{
+  padding: 1%;
+}
+.footer-link1{
+  font-size: 1.6rem;
+  color: #5089C6;
+  text-decoration: none;
+}
+.footer-link1:hover{
+  color: #000;
+  text-decoration: none;
+}
+.location{
+  font-family: "Montserrat", sans-serif;
+  color: #5089C6;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 5%;
+}
+.loc{
+  padding-left: 2%;
+
+}
+/* Footer section */
+footer{
+  text-align: center;
+  padding: 4%;
+  background-color: #5089C6;
+}
+#footer-text{
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}
+@media only screen and (max-width: 768px){
+  body
+  {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      padding: 0px;
+      overflow-x: hidden;
+  }
+  item{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 10%;
+  }
+  .item .left {
+    height: 300px;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 20px;
+    position:relative;
+  }
+  .item .right{
+    margin-left: -200px;
+    height: 200px;
+    width: 600px;
+    z-index: 1;
+    text-align: left;
+    background-color: #fff;
+    padding:  2rem 2rem 15rem 2rem;
+    border-radius: 30px;
+    box-shadow: 0 0 20px #000;
+  }
+  .item .left .img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    overflow: hidden;
+  }
+  #project .item{
+    flex-direction: column;
+  }
+  #project .item .left {
+
+    width: 100%;
+  }
+  #project .item .right {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -150px;
+  }
+  #project .item:nth-child(even){
+    flex-direction: column;
+  }
+  #Project .item:nth-child(even) .left{
+    margin-left: 0;
+  }
+  .con-img{
+    padding-top:0%;
+    padding-bottom: 20%;
+    padding-right: 10%;
+    padding-left:  10%;
+    height: auto;
+    width: 500;
+  }
+}
+@media only screen and (max-width: 1080px) {
+  body{
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      padding: 0px;
+      overflow-x: hidden;
+  }
+  .container{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+  }
+  .navbar {
+    background-image: url("images/img19.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+  background-position:bottom;
+  }
+  .container-fluid {
+    margin: 3%;
+  }
+ .tog-ico{
+  margin-right: 60px;
+ }
+  .nav-brand {
+    font-size: 50px;
+    font-family: "Lobster", sans-serif;
+    text-decoration: none;
+    color: #CDF0EA;
+    padding-left: 7%;
+    padding-right: 14%
+  }
+  .row-cont {
+    padding-top: 8%;
+  }
+  .big-heading {
+    text-align: center;
+    color: #CDF0EA;
+    font-family: "Lobster", sans-serif;
+    font-size: 6rem;
+    line-height: 3.5rem;
+    padding: 20% 10% 3% 10%;
+  }
+
+  .intro {
+    text-align: center;
+    color: #fff;
+    font-family: "Merriweather", sans-serif;
+    font-size: 3.5rem;
+    margin: 3% 10% 5% 10%;
+  }
+  .pro {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #fff;
+    font-size: 3.5rem;
+    line-height: 2rem;
+  }
+  .social-media{
+    text-align: center;
+    margin: 0% 0% 5%;
+  }
+
+  .footer-link {
+    font-size: 2.3rem;
+    color: #fff;
+    padding: 2%;
+  }
+  .footer-link:hover{
+    color: #CDF0EA;
+  }
+  .reach-me {
+    font-size: 3rem;
+    text-align: center;
+    margin: 3% 0 10% 0%;
+  }
+  .btn {
+    font-size: 3rem;
+    margin: 0 2% 0;
+  }
+  .home-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: #CDF0EA;
+    background-color: #fff;
+    border-radius: 5%;
+    border-width: 5px;
+    outline: 3px solid #fff;
+    outline-offset: 8px;
+    margin: 10% 30% 30% 35%;
+    height: 400px;
+    width: 300px;
+  }
+  .home-image:hover{
+    transform: scale(1.1);
+  }
+  .lay{
+    height: 400px;
+    width: 250px;
+    margin-right: 0px;
+    background-color: #CDF0EA;
+    margin-left: 250px;
+    margin-top: -750px;
+    margin-bottom: 30%;
+    padding:  2rem 2rem 5rem 2rem;
+    border-radius: 30px;
+    box-shadow: 0 0 20px #000;
+    z-index: 1;
+  }
+  .section-title {
+    padding-top: 30%;
+    padding-bottom: 3%;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: #5089C6;
+  }
+  .about-content {
+    font-size: 1.1rem;
+    margin: 2% 5% 2%;
+    background-color: #fff;
+    box-shadow: 0 0 20px #5089C6;
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+  }
+  .s{
+    text-align: center;
+  }
+  .download-button-cv{
+    margin-top: 3%;
+    margin-bottom: 15%;
+    text-align: center;
+  }
+  .cert-docs{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .my-skills{
+    margin: 2% 0 0;
+  }
+  .skill-section {
+    padding: 15% 9% 10% 23%;
+    background-color: #5089C6;
+  }
+  .colomn{
+    padding: 0 3% 10%;
+  }
+  .qualification-content{
+    margin: 2% 5% 1%;
+    background-color: #fff;
+    box-shadow: 0 0 20px #5089C6;
+    padding: 6% 5% 4% 5%;
+  }
+  .qual-heading{
+    font-size: 1.5rem;
+    text-align: left;
+    font-family: "Merriweather";
+    padding-bottom: 5px;
+  }
+
+  .edx-div{
+    padding: 5%;
+    font-family: "Montserrat", sans-serif;
+  }
+  .head{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.3rem;
+  }
+  .head-l{
+    font-size: 1.2rem;
+  }
+  .cert-docs{
+    padding-top: 20px;
+  }
+.item{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 10%;
+    padding-bottom: 20%;
+    padding-top: 20%;
+  }
+  .item .left {
+    height: 300px;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 30px;
+    position:relative;
+  }
+  .item .right{
+    margin-left: -200px;
+    height: 450px;
+    width: 600px;
+    z-index: 1;
+    text-align: left;
+    background-color: #fff;
+    padding:  2rem 2rem 15rem 2rem;
+    border-radius: 30px;
+    box-shadow: 0 0 20px #000;
+  }
+  .item .left .img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    overflow: hidden;
+  }
+  .item .right .project-title{
+    padding-bottom: 1%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Merriweather", sans-serif;
+    margin-bottom: 0.5rem;
+  }
+  .item .right .project-sub-title{
+    font-family: "Merriweather", sans-serif;
+    line-height: 1.6rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  .item .right .project-description{
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    font-size: 1.1rem;
+    margin-bottom: 1.2rem;
+  }
+  #projects .item .right .buttons {
+  }
+  #project .item .right .buttons {
+    width:100%;
+    text-align: center;
+  }
+
+  label{
+    padding-top: 3%;
+    font-size: 1.1rem;
+    font-weight:400;
+  }
+  .btn-sub{
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  .contact-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .con-img{
+    padding-top: 4%;
+    padding-bottom: 20%;
+    padding-right: 5%;
+    padding-left:  5%;
+    height: auto;
+    width: auto;
+  }
+
+
+}
